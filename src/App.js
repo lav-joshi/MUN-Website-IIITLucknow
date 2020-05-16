@@ -5,17 +5,29 @@ import { BrowserRouter as Router, Route,Switch} from "react-router-dom";
 import Navbar from "./components/NavBar.component";
 import Team from "./components/Team.component";
 import Home from "./components/Home.component";
+import Footer from "./components/Footer.component";
+import Gallery from "./components/Gallery.component";
+import 'mdbreact/dist/css/mdb.css';
 class App extends Component {
   render() {
     return (
+      <div >
       <Router>
-        <Navbar/><br/>
+        
+         <Navbar/><br/>
+        
         <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/team" exact component={Team}/>
+        <Route path="/gallery" exact component={Gallery}/>
         </Switch>
         
+       
+        <div className="go-go-go">
+        <Footer/>
+        </div>
       </Router>
+      </div>
     );
   }
 }

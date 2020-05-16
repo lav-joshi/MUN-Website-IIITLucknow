@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 import { BrowserRouter as Router ,Link} from 'react-router-dom';
-
+import '../index.css';
 class Navbar extends Component {
 state = {
   isOpen: false
@@ -14,25 +14,31 @@ toggleCollapse = () => {
 
 render() {
   return (
-    <Router>
-      <MDBNavbar color="default-color " className="fixed-top" dark expand="md">
+      <MDBNavbar className="fixed-top fuck" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">MUN</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
+          <MDBNavbarNav right>
             <MDBNavItem >
               <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
-            {/* <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
-            </MDBNavItem> */}
-            {/* <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
-            </MDBNavItem> */}
+            <MDBNavItem>
+              <MDBNavLink to="#!">Schedule</MDBNavLink>
+            </MDBNavItem>
+    
             <MDBNavItem >
               <MDBNavLink to="/team">Team</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/gallery">Gallery</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem >
+              <MDBNavLink to="/team">Sponsors</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem >
+              <MDBNavLink to="/team">Contact Us</MDBNavLink>
             </MDBNavItem>
             {/* <MDBNavItem>
               <MDBDropdown>
@@ -49,21 +55,12 @@ render() {
             </MDBNavItem> */}
           </MDBNavbarNav>
           <MDBNavbarNav right>
-            <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="twitter" />
-              </MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="google-plus-g" />
-              </MDBNavLink>
-            </MDBNavItem>
+           
+           
         
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-    </Router>
     );
   }
 }
