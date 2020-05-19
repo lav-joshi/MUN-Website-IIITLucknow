@@ -5,7 +5,7 @@
     color:#FF8642;
 }
 .fuck{
-    background-image: linear-gradient(to right top, #283c86, #2a3e89, #2c408c, #2e4390, #304593, #324796, #344a9a, #364c9d, #394fa1, #3c52a6, #3e55aa, #4158af);
+  background-image: linear-gradient(to right top, #283c86, #2a3e89, #2c408c, #2e4390, #304593, #324796, #344a9a, #364c9d, #394fa1, #3c52a6, #3e55aa, #4158af);
 }
 .go-go-go{
     margin-top:-24px;
@@ -18,10 +18,21 @@
    font-size: 70px;
    font-weight: 600;
 }
-
+.masti{
+  font-size: 70px;
+  font-weight: 400;
+  padding-left: 20%;
+}
+.navi{
+  display: flex;
+  justify-content: stretch;
+}
 @media only screen and (max-width: 768px) {
     .gello{
         display: none;
+    }
+    .navi{
+      justify-content:
     }
   }
 

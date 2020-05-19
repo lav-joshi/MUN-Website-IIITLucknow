@@ -25,7 +25,7 @@ render() {
               <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Schedule</MDBNavLink>
+              <MDBNavLink to="/schedule">Schedule</MDBNavLink>
             </MDBNavItem>
     
             <MDBNavItem >
@@ -35,29 +35,11 @@ render() {
               <MDBNavLink to="/gallery">Gallery</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem >
-              <MDBNavLink to="/team">Sponsors</MDBNavLink>
+              <MDBNavLink to="/sponsors">Sponsors</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem >
-              <MDBNavLink to="/team">Contact Us</MDBNavLink>
+              <MDBNavLink to="/contact">Contact Us</MDBNavLink>
             </MDBNavItem>
-            {/* <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Dropdown</div>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavItem> */}
-          </MDBNavbarNav>
-          <MDBNavbarNav right>
-           
-           
-        
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>

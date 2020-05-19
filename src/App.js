@@ -7,6 +7,9 @@ import Team from "./components/Team.component";
 import Home from "./components/Home.component";
 import Footer from "./components/Footer.component";
 import Gallery from "./components/Gallery.component";
+import Contact from "./components/Contact.component";
+import Sponsors from "./components/Sponsors.component";
+import Schedule from "./components/Schedule.component";
 import 'mdbreact/dist/css/mdb.css';
 class App extends Component {
   render() {
@@ -20,6 +23,9 @@ class App extends Component {
         <Route path="/" exact component={Home}/>
         <Route path="/team" exact component={Team}/>
         <Route path="/gallery" exact component={Gallery}/>
+        <Route path="/contact" exact component={Contact}></Route>
+        <Route path="/sponsors" exact component={Sponsors}></Route>
+        <Route path="/schedule" exact component={Schedule}></Route>
         </Switch>
         
        

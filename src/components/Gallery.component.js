@@ -2,7 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol,MDBAnimation } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 import "../index.css";
-
+import logo from"./images/undraw_camera_mg5h.svg"
 const images = [
   "https://mdbootstrap.com/img/Others/documentation/img%20(145)-mini.jpg",
   "https://mdbootstrap.com/img/Others/documentation/img%20(150)-mini.jpg",
@@ -48,7 +48,7 @@ class LightboxPage extends React.Component {
               <figure>
               <MDBAnimation reveal type="zoomIn">
                 <img
-                  src="https://image.flaticon.com/icons/png/512/872/872211.png"
+                  src={logo}
                   alt="Gallery"
                   className="img-fluid"
                   onClick={() =>
@@ -64,7 +64,7 @@ class LightboxPage extends React.Component {
                   Image Gallery
               </div>
           </MDBCol>
-
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
             <MDBCol md="4">
               <figure>
               <MDBAnimation reveal type="fadeIn">
