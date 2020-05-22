@@ -27,9 +27,15 @@
   display: flex;
   justify-content: stretch;
 }
+.google-form{
+  width:500px;
+}
 @media only screen and (max-width: 768px) {
     .gello{
         display: none;
+    }
+    .google-form{
+      width: 330px;
     }
   }
 

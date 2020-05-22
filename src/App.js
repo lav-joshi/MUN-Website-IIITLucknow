@@ -7,7 +7,7 @@ import Team from "./components/Team.component";
 import Home from "./components/Home.component";
 import Footer from "./components/Footer.component";
 import Gallery from "./components/Gallery.component";
-import Contact from "./components/Contact1.component";
+import Contact from "./components/Contact.component";
 import Sponsors from "./components/Sponsors.component";
 import Schedule from "./components/Schedule.component";
 import 'mdbreact/dist/css/mdb.css';
