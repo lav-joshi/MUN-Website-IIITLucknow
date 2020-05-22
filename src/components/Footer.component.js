@@ -9,7 +9,7 @@ const FooterPagePro = () => {
         <MDBRow className="my-4">
           <MDBCol md="4" lg="4">
             <h5 className="text-uppercase mb-4 font-weight-bold">
-              MDBFooter Content
+              Our Goal and Our Mission
             </h5>
             <p>
               Here you can use rows and columns here to organize your footer
@@ -23,19 +23,19 @@ const FooterPagePro = () => {
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
           <MDBCol md="2" lg="2" className="ml-auto">
-            <h5 className="text-uppercase mb-4 font-weight-bold">About</h5>
+            <h5 className="text-uppercase mb-4 font-weight-bold"></h5>
             <ul className="list-unstyled">
               <p>
-                <a href="#!">PROJECTS</a>
+                <a href="#!"></a>
               </p>
               <p>
-                <a href="#!">ABOUT US</a>
+                <a href="#!"></a>
               </p>
               <p>
-                <a href="#!">BLOG</a>
+                <a href="#!"></a>
               </p>
               <p>
-                <a href="#!">AWARDS</a>
+                <a href="#!"></a>
               </p>
             </ul>
           </MDBCol>
@@ -43,10 +43,10 @@ const FooterPagePro = () => {
           <MDBCol md="5" lg="3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
             <p>
-              <i className="fa fa-home mr-3" /> New York, NY 10012, US
+              <i className="fa fa-home mr-3" /> IIIT Lucknow . 
             </p>
             <p>
-              <i className="fa fa-envelope mr-3" /> info@example.com
+              <i className="fa fa-envelope mr-3" /> lit2019023@iiitl.ac.in
             </p>
             <p>
               <i className="fa fa-phone mr-3" /> + 01 234 567 88
@@ -82,7 +82,8 @@ const FooterPagePro = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="https://www.MDBootstrap.com"> IIIT Lucknow Model United Nations</a>
+          <a href="https://www.MDBootstrap.com"> IIIT Lucknow Model United Nations</a><br/>
+          Created and maintained by:<a href="https://github.com/lav-joshi"> lav-joshi</a> & <a href="https://github.com/yadavashu">yadavashu</a>
         </MDBContainer>
       </div>
     </MDBFooter>

@@ -38,7 +38,34 @@
       width: 330px;
     }
   }
+  /* body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
 
+  ::-webkit-scrollbar {
+    width:10px;
+    background:#222;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:#4158af;
+    box-shadow:0 -100vh 0 100vh #4158af;
+  }
+
+  /* Scrollbar */
 
   /* Gallery */
   @-webkit-keyframes closeWindow {
