@@ -10,9 +10,7 @@ class Team extends Component{
             Our amazing team
           </h2>
           <p className="grey-text w-responsive mx-auto mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            
           </p>
           <MDBRow className="text-md-left">
             <MDBCol lg="6" md="12" className="mb-5">
@@ -30,18 +28,17 @@ class Team extends Component{
                   Secretary General
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                  "Everything negative-pressure, challenges- is all an opportunity for me to rise."
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/sakshamv30" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="https://www.instagram.com/___sakshamvarshney/" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/saksham-varshney-668ba557/" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
@@ -60,18 +57,17 @@ class Team extends Component{
                   Deputy Secretary General
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                “About all you can do in life is be who you are."
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/hriday.grover" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg yt-ic">
-                  <MDBIcon fab icon="youtube" />
-                </a>
-                <a href="#!" className="p-2 fa-lg ins-ic">
-                  <MDBIcon fab icon="instagram" />
-                </a>
+                <a href="https://www.instagram.com/anshulg07/" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="#!" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
@@ -87,28 +83,28 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Vinamr Bajaj</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Deputy Secretary General
+                 Director General
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                “Everyone you'll ever meet knows something you don't.”  
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/bajajvinamr" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
+                <a href="https://www.instagram.com/vinamrbajaj/" className="p-2 fa-lg ins-ic">
+                  <MDBIcon fab icon="instagram" />
                 </a>
-                <a href="#!" className="p-2 fa-lg github-ic">
-                  <MDBIcon fab icon="github" />
+                <a href="https://www.linkedin.com/in/vinamr-bajaj-b8b884191/" className="p-2 fa-lg li-ic">
+                  <MDBIcon fab icon="linkedin-in" />
                 </a>
+                
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(29).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/MUN.jpeg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -117,20 +113,20 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Anshul Garg</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Front-end Developer
+                Under Secretary General 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                "I am a living in the moment kind of person who gives everything he does his best shot."
                 </p>
-                <a href="#!" className="p-2 fa-lg gplus-ic">
-                  <MDBIcon fab icon="google-plus-g" />
+                <a href="https://www.facebook.com/anshulgarg.070901/" className="p-2 fa-lg fb-ic">
+                  <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg li-ic">
+                
+                <a href="https://www.instagram.com/anshulg07/" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/anshul-garg-b0aa83169/" className="p-2 fa-lg li-ic">
                   <MDBIcon fab icon="linkedin-in" />
-                </a>
-                <a href="#!" className="p-2 fa-lg email-ic">
-                  <MDBIcon icon="envelope" />
                 </a>
               </MDBCol>
             </MDBCol>
@@ -138,7 +134,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/WhatsApp%20Image%202020-05-19%20at%208.21.18%20PM.jpeg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -147,28 +143,29 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Niharika Kabra</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Under Secretary General 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                "Growing through life gaining experiences and striving hard to be better."
+
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/niharika.kabra.37" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
+                <a href="https://instagram.com/hellcaster_____?igshid=18rz6zvtkfpz9" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/niharika-kabra-748464197" className="p-2 fa-lg li-ic">
+                  <MDBIcon fab icon="linkedin-in" />
                 </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/81219121_1520543048092836_8508370732097470464_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=ePMvv36EsjAAX84Acqx&_nc_ht=scontent.fdel3-2.fna&oh=eac91ca85903eb45796e24e8b710c584&oe=5EE041BC"
+                  src="https://github.com/yadavashu/photo/blob/master/DSC_0799.jpg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -177,28 +174,28 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Sarthak Singh</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Under Secretary General 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                "I am the kind of person who is eager to learn something new in life and likes to keep a positive attitude"
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/sarthak.singh.39545" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="https://www.instagram.com/sarthak.singh03/" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/sarthak-singh-6171b0b1/" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
+                
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/WhatsApp%20Image%202020-05-19%20at%2021.53.29.jpeg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -207,28 +204,27 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Riya Srivastava</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Under Secretary General 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                "Trying to make my own way in this world with a smile on my face, and not willing to give up."
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/riya.srivastava2110" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="https://instagram.com/2110_riya?igshid=px5qfhfedcga" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/riya-srivastava-13b82a190" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/20200303_202938.jpg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -237,21 +233,20 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Bhanu Prakash Singh</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Committee Head 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                  
                 </p>
                 <a href="#!" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="http://instagram.com/3762bhanu" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/bhanu-prakash-a0765b193" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
@@ -267,28 +262,27 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Lav Joshi</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Committee Head 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                “Follow your inner moonlight; don’t hide the madness.”
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/lav.joshi.923" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="https://www.instagram.com/lav-joshi2002/" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/lav-joshi-b72248196" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-1/67340970_334796617396245_4220567205323997184_n.jpg?_nc_cat=110&_nc_sid=dbb9e7&_nc_ohc=eriqVO26oegAX83iYOT&_nc_ht=scontent.fdel3-2.fna&oh=95799aa208cc4c587d00abe94cf3ecd0&oe=5EDE79D9"
+                  src="https://github.com/yadavashu/photo/blob/master/WhatsApp%20Image%202020-05-23%20at%2015.05.15.jpeg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -297,28 +291,27 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Ashutosh Yadav</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Committee Head 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                “Imperfection is beauty, madness is genius and it’s better to be absolutely ridiculous than absolutely boring.”
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/profile.php?id=100025977280583&ref=bookmarks" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="http://instagram.com/yadavashu4488" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/ashutosh-yadav-135017186/" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/IMG_20200519_222701.jpg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -327,28 +320,27 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Hritwik Tripathi</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Committee Head 
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                "I’m out here hustlin’ to claim what’s mine."
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/hritwik.tripathi" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
-              </MDBCol>
+                <a href="http://instagram.com/escavalier99" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="https://www.linkedin.com/in/hritwik-tripathi-a936a2196" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
+            </MDBCol>
             </MDBCol>
   
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+                  src="https://github.com/yadavashu/photo/blob/master/DSC_0080.jpg?raw=true"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -360,18 +352,17 @@ class Team extends Component{
                   Secretary General
                 </h6>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur.
+                  
                 </p>
-                <a href="#!" className="p-2 fa-lg fb-ic">
+                <a href="https://www.facebook.com/profile.php?id=100010421222844" className="p-2 fa-lg fb-ic">
                   <MDBIcon fab icon="facebook-f" />
                 </a>
-                <a href="#!" className="p-2 fa-lg tw-ic">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-                <a href="#!" className="p-2 fa-lg dribbble-ic">
-                  <MDBIcon fab icon="dribbble" />
-                </a>
+                <a href="#!" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+              <a href="#!" className="p-2 fa-lg li-ic">
+              <MDBIcon fab icon="linkedin-in" />
+            </a>
               </MDBCol>
             </MDBCol>
   
