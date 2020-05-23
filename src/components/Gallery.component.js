@@ -24,7 +24,8 @@ const smallImages = [
   "https://mdbootstrap.com/img/Others/documentation/img%20(40)-mini.jpg",
   "https://mdbootstrap.com/img/Others/documentation/img%20(148)-mini.jpg",
   "https://mdbootstrap.com/img/Others/documentation/img%20(147)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg"
+  "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg",
+  
 ];
 
 class LightboxPage extends React.Component {
@@ -65,132 +66,28 @@ class LightboxPage extends React.Component {
               </div>
           </MDBCol>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
+
+          {
+            smallImages.map((value,index)=>{
+              return (
             <MDBCol md="4">
               <figure>
               <MDBAnimation reveal type="fadeIn">
                 <img
-                  src={smallImages[0]}
+                  src={smallImages[index]}
                   alt="Gallery"
                   className="img-fluid"
                   onClick={() =>
-                    this.setState({ photoIndex: 0, isOpen: true })
+                    this.setState({ photoIndex: index, isOpen: true })
                   }
                 />
                 </MDBAnimation>
               </figure>
             </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[1]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 1, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[2]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 2, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[3]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 3, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[4]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 4, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[5]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 5, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[6]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 6, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[7]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 7, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
-            <MDBCol md="4">
-              <figure>
-              <MDBAnimation reveal type="fadeIn">
-                <img
-                  src={smallImages[8]}
-                  alt="Gallery"
-                  className="img-fluid"
-                  onClick={() =>
-                    this.setState({ photoIndex: 8, isOpen: true })
-                  }
-                />
-                </MDBAnimation>
-              </figure>
-            </MDBCol>
+              )
+              })
+          }
+
           </MDBRow>
         </div>
         {isOpen && (
