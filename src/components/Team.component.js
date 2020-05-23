@@ -45,7 +45,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/p960x960/87000079_2894170974032432_6790876287532531712_o.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=I9hFrHu6cLEAX-JWy00&_nc_ht=scontent.fdel3-2.fna&_nc_tp=6&oh=7419365c4e5c92feaac39c3aa52d2335&oe=5EDF0218"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/Hriday.jpg?token=ANAZIMBLNQFHMZOIXJRHDCC62JTAW"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -165,7 +165,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/DSC_0799.jpg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/DSC_0799.jpg?token=ANAZIMFXLMKDGX2AR4FODVC62JSJ6"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -195,7 +195,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/WhatsApp%20Image%202020-05-19%20at%2021.53.29.jpeg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/Riya.jpeg?token=ANAZIMDN2XLFCF3R546WQZ262JSUG"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -224,7 +224,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/20200303_202938.jpg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/20200303_202938.jpg?token=ANAZIMEJD3JDH4TZBIIQSZK62JSBM"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -282,7 +282,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/WhatsApp%20Image%202020-05-23%20at%2015.05.15.jpeg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/WhatsApp%20Image%202020-05-23%20at%2015.05.15.jpeg?token=ANAZIMC7MSDPRZCCZGYLK6262JRYU"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -311,7 +311,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/IMG_20200519_222701.jpg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/IMG_20200519_222701.jpg?token=ANAZIMHNFOALTC2YBJJB76262JRTG"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -340,7 +340,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://github.com/yadavashu/photo/blob/master/DSC_0080.jpg?raw=true"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/DSC_0080.jpg?token=ANAZIMFQZ3QOYIBD6T7O25K62JRGC"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
