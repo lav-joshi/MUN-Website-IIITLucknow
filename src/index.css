@@ -30,6 +30,9 @@
 .google-form{
   width:500px;
 }
+.hexol{
+  height:672px;
+}
 @media only screen and (max-width: 768px) {
     .gello{
         display: none;
@@ -38,7 +41,7 @@
       width: 330px;
     }
   }
-  /* body {
+  body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -54,7 +57,7 @@
     100% {
       background-position: 0% 50%;
     }
-  } */
+  }
 
   ::-webkit-scrollbar {
     width:10px;

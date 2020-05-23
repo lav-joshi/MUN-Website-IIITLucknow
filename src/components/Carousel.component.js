@@ -13,11 +13,11 @@ const Carousel = () => {
       className="z-depth-1"
     >
       <MDBCarouselInner>
-        <MDBCarouselItem itemId="1">
+      <MDBCarouselItem itemId="1">
           <MDBView>
             <img
-              className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              className="d-block w-100 hexol"
+              src="https://media.giphy.com/media/cNfdCiR00n8kCKeuhJ/giphy.gif"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -31,16 +31,17 @@ const Carousel = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-              alt="Second slide"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              alt="First slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Strong mask</h3>
-            <p>Second text</p>
+            <h3 className="h3-responsive">Light mask</h3>
+            <p>First text</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
+    
         <MDBCarouselItem itemId="3">
           <MDBView>
             <img
