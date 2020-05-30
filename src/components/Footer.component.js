@@ -43,17 +43,15 @@ const FooterPagePro = () => {
           <MDBCol md="5" lg="3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
             <p>
-              <i className="fa fa-home mr-3" /> IIIT Lucknow . 
+              <i className="fa fa-home mr-3" /> IIIT Lucknow  
             </p>
             <p>
               <i className="fa fa-envelope mr-3" /> lit2019023@iiitl.ac.in
             </p>
             <p>
-              <i className="fa fa-phone mr-3" /> + 01 234 567 88
+              <i className="fa fa-phone mr-3" /> +91 92050 22830
             </p>
-            <p>
-              <i className="fa fa-print mr-3" /> + 01 234 567 89
-            </p>
+           
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
           <MDBCol md="2" lg="2" className="text-center">
@@ -61,13 +59,13 @@ const FooterPagePro = () => {
               Follow us
             </h5>
             <div className="mt-2 ">
-            <a className="btn-floating btn-sm btn-dribbble mx-1">
+            <a className="btn-floating btn-sm btn-dribbble mx-1" href="https://www.facebook.com/equinoxworldmun">
                 <span className="fa-stack fa-2x">
                 <i className="fas fa-circle fa-color-facebook fa-stack-2x"></i>
                 <i className="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                 </span>
             </a><br/><br/>
-            <a className="btn-floating btn-sm btn-dribbble mx-1">
+            <a className="btn-floating btn-sm btn-dribbble mx-1" href='https://www.instagram.com/equinoxworldmun/'>
                 <span className="fa-stack fa-2x">
                 <i className="fas fa-circle fa-color-instagram fa-stack-2x"></i>
                 <i className="fab fa-instagram fa-stack-1x fa-inverse"></i>

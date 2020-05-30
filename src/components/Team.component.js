@@ -349,7 +349,7 @@ class Team extends Component{
               <MDBCol md="8" lg="6" className="float-right">
                 <h4 className="font-weight-bold mb-3">Yash Sahu</h4>
                 <h6 className="font-weight-bold grey-text mb-3">
-                  Secretary General
+                Committee Head 
                 </h6>
                 <p className="grey-text">
                   
