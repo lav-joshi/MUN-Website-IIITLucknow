@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 import "./index.css";
 import { BrowserRouter as Router, Route,Switch} from "react-router-dom";
-import Navbar from "./components/NavBar.component";
+// import Navbar from "./components/NavBar.component";
+import Test from "./components/test";
 import Team from "./components/Team.component";
 import Home from "./components/Home.component";
 import Footer from "./components/Footer.component";
@@ -16,8 +17,6 @@ class App extends Component {
     return (
       <div >
       <Router>
-        
-         <Navbar/><br/>
         
         <Switch>
         <Route path="/" exact component={Home}/>

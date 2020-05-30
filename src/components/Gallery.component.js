@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol,MDBAnimation } from "mdbreact";
 import Lightbox from "react-image-lightbox";
+import Navbar from "./NavBar.component";
 import "../index.css";
 import logo from"./images/undraw_camera_mg5h.svg"
 const images = [
@@ -41,6 +42,8 @@ class LightboxPage extends React.Component {
   render() {
     const { photoIndex, isOpen } = this.state;
     return (
+      <>
+      <Navbar/>
       <MDBContainer>
           <br/><br/>
         <div className="mdb-lightbox no-margin">
@@ -110,6 +113,7 @@ class LightboxPage extends React.Component {
           />
         )}
       </MDBContainer>
+      </>
     );
   }
 }

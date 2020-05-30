@@ -3,10 +3,13 @@ import { MDBContainer, MDBRow, MDBCol,MDBAnimation } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 import "../index.css";
 import logo from"./images/undraw_collab_8oes.svg"
+import Navbar from "./NavBar.component";
 
 class Sponsors extends Component {
     render() {
         return (
+          <>
+          <Navbar/>
            <MDBContainer>
                <br/><br/><br/><br/>
         <div className="mdb-lightbox no-margin">
@@ -26,6 +29,7 @@ class Sponsors extends Component {
         </div>
         <h1 className="masti">Coming Soon</h1>
         </MDBContainer>
+        </>
         )
     }
 }

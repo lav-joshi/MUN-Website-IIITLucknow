@@ -17,7 +17,7 @@ const Carousel = () => {
           <MDBView>
             <img
               className="d-block w-100 hexol"
-              src="https://media.giphy.com/media/cNfdCiR00n8kCKeuhJ/giphy.gif"
+              src="https://media.giphy.com/media/5wWf7HfQJzA8cze6CWc/giphy.gif"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -30,7 +30,7 @@ const Carousel = () => {
         <MDBCarouselItem itemId="2">
           <MDBView>
             <img
-              className="d-block w-100"
+              className="d-block w-100 hexol"
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
               alt="First slide"
             />
@@ -45,7 +45,7 @@ const Carousel = () => {
         <MDBCarouselItem itemId="3">
           <MDBView>
             <img
-              className="d-block w-100"
+              className="d-block w-100 hexol"
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
               alt="Third slide"
             />

@@ -1,13 +1,15 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardUp, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBAnimation,MDBRow, MDBCol, MDBCard, MDBCardUp, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
 
 const TestimonialsPage = () => {
   return (
     <MDBContainer>
       <section className="text-center my-5">
+      <MDBAnimation  reveal type="rollIn" duration="1000ms" delay="0.5s">
         <h2 className="h1-responsive font-weight-bold my-5">
           Testimonials
         </h2>
+        </MDBAnimation>
         <p className="dark-grey-text w-responsive mx-auto mb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
           error amet numquam iure provident voluptate esse quasi, veritatis
@@ -15,6 +17,7 @@ const TestimonialsPage = () => {
         </p>
         <MDBRow>
           <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+          <MDBAnimation  reveal type="zoomIn" duration="600ms" delay="0.5s">
             <MDBCard testimonial>
               <MDBCardUp color="info" />
               <MDBAvatar className="mx-auto white">
@@ -34,8 +37,10 @@ const TestimonialsPage = () => {
                 </p>
               </MDBCardBody>
             </MDBCard>
+            </MDBAnimation>
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-lg-0 mb-4">
+          <MDBAnimation  reveal type="zoomIn" duration="600ms" delay="1s">
             <MDBCard testimonial>
               <MDBCardUp gradient="blue" />
               <MDBAvatar className="mx-auto white">
@@ -55,8 +60,11 @@ const TestimonialsPage = () => {
                 </p>
               </MDBCardBody>
             </MDBCard>
+            </MDBAnimation>
           </MDBCol>
+
           <MDBCol lg="4" md="6" className="mb-lg-0 mb-4">
+          <MDBAnimation  reveal type="zoomIn" duration="600ms" delay="1.5s">
             <MDBCard testimonial>
               <MDBCardUp className="indigo" />
               <MDBAvatar className="mx-auto white">
@@ -76,6 +84,7 @@ const TestimonialsPage = () => {
                 </p>
               </MDBCardBody>
             </MDBCard>
+            </MDBAnimation>
           </MDBCol>
         </MDBRow>
       </section>

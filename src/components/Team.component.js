@@ -1,10 +1,13 @@
 import React,{Component} from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import Navbar from "./NavBar.component";
 
 class Team extends Component{
   render(){
     return (
-      <MDBCard className="my-5 px-5 pb-1 text-center">
+      <>
+      <Navbar/>
+      <MDBCard className="my-5 px-5 pb-1 text-center marc">
         <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold my-5">
             Our amazing team
@@ -45,7 +48,7 @@ class Team extends Component{
             <MDBCol lg="6" md="12" className="mb-5">
               <MDBCol md="4" lg="6" className="float-left">
                 <MDBAvatar
-                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/Hriday.jpg?token=ANAZIMBLNQFHMZOIXJRHDCC62JTAW"
+                  src="https://raw.githubusercontent.com/lav-joshi/my-code/master/Hriday.jpg?token=ANAZIMG53NLTHPX6PF5EQSK63NIPU"
                   className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
                   tag="img"
                   alt="Sample avatar"
@@ -369,6 +372,7 @@ class Team extends Component{
           </MDBRow>
         </MDBCardBody>
       </MDBCard>
+      </>
     );
   }
 }

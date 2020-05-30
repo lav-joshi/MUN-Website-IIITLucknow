@@ -4,7 +4,7 @@ import '../index.css';
 
 const BlogPage = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5">
+    <MDBCard className="my-5 px-5 pb-5 marc">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold text-center my-5">
           Secretary General Message
@@ -26,7 +26,24 @@ const BlogPage = () => {
             <h3 className="font-weight-bold mb-3 p-0">
               <strong>Message : </strong>
             </h3>
-            <p id="suck">
+            <div className="scrollbar scrollbar-morpheus-den lol">
+            <p >
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus et aut
+              officiis debitis.
               Nam libero tempore, cum soluta nobis est eligendi optio cumque
               nihil impedit quo minus id quod maxime placeat facere possimus,
               omnis voluptas assumenda est, omnis dolor repellendus et aut
@@ -55,6 +72,8 @@ const BlogPage = () => {
               </a>
               
             </p>
+            </div>
+           
            
           </MDBCol>
         </MDBRow>
